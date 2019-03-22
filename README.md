@@ -1,0 +1,2 @@
+# staq-lib
+module library
