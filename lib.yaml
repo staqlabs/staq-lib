@@ -1,0 +1,8 @@
+name: Staq Foundation Library
+publisher: 'staqlabs'
+blocks:
+  busy: 'blocks/busy'
+  mongodb: 'blocks/mongodb'
+  # mysql: 'blocks/mysql'
+  # elasticsearch: 'blocks/elasticsearch'
+  # s3: 'blocks/s3'

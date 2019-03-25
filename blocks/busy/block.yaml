@@ -1,0 +1,8 @@
+name: busy
+description: busybox
+type: kubernetes
+layer: 'BACKEND-SERVICE'
+config:
+  - key: sleep
+    type: NUMBER
+    required: true

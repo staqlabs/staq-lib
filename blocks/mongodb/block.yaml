@@ -1,0 +1,14 @@
+name: mongodb
+description: mongodb configuration
+type: kubernetes
+layer: 'DATASOURCE'
+config:
+  - key: mongoUri
+    type: STRING
+    required: true
+  - key: username
+    type: STRING
+    required: false
+  - key: password
+    type: PASSWORD
+    required: false
