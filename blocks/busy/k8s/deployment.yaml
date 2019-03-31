@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: __name__
+  name: busybox
   labels:
     app: busybox
     layer: backend
@@ -21,4 +21,4 @@ spec:
           image: busybox
           command:
             - sleep
-            - __sleep__
+            - '6000'
