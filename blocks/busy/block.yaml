@@ -3,6 +3,6 @@ description: busybox
 type: kubernetes
 layer: 'BACKEND-SERVICE'
 config:
-  - key: sleep
-    type: NUMBER
+  - key: mongo
+    type: BLOCK
     required: true
