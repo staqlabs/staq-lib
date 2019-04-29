@@ -1,6 +1,6 @@
 name: mongodb
 description: mongodb configuration
-type: kubernetes
+type: client-config
 layer: 'DATASOURCE'
 config:
   - key: mongoUri

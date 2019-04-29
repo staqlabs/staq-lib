@@ -15,7 +15,6 @@ spec:
       labels:
         app: busybox
     spec:
-      volumes:
       containers:
         - name: busybox
           image: busybox
