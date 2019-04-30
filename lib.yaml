@@ -3,6 +3,7 @@ publisher: 'staqlabs'
 blocks:
   busy: 'blocks/busy'
   mongodb: 'blocks/mongodb'
+  helloworld: 'blocks/hellowrld'
   # mysql: 'blocks/mysql'
   # elasticsearch: 'blocks/elasticsearch'
   # s3: 'blocks/s3'
