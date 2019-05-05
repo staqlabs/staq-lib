@@ -2,3 +2,7 @@ name: helloworld
 description: hello world express app
 type: kubernetes
 layer: 'FRONTEND-SERVICE'
+config:
+  - key: greeting
+    type: STRING
+    required: true

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: helloworld
-          image: us.gcr.io/eventstack-stg/helloworld:10fc05e
+          image: us.gcr.io/eventstack-stg/helloworld:9819e42
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
