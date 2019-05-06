@@ -6,3 +6,4 @@ config:
   - key: greeting
     type: STRING
     required: true
+    containerId: helloworld

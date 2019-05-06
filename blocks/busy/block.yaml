@@ -6,3 +6,4 @@ config:
   - key: mongo
     type: BLOCK
     required: true
+    containerId: busybox
