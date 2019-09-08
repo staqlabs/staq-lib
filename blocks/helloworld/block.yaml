@@ -6,4 +6,5 @@ config:
   - key: greeting
     type: STRING
     required: true
-    containerId: helloworld
+    containerName: helloworld
+    deploymentName: helloworld
